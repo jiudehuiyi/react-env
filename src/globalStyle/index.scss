@@ -1,0 +1,17 @@
+
+
+//定义样式变量
+
+@import "./variable";
+
+/*请注意这里的类名请不要重复，以免发生冲突*/
+
+// components/Loading组件样式
+@import "../components/Loading/loading.scss";
+
+//components/ReDiv样式
+@import "../components/ReDiv/reDiv.scss";
+
+
+//components/Page404
+@import "../components/Page404/page404.scss";

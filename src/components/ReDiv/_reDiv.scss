@@ -1,0 +1,23 @@
+.re-div {
+    &-mask {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1000;
+        height: 100%;
+        background-color: rgba(0,0,0,.45);
+    }
+    &-wrap {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        overflow: auto;
+        outline: 0px;
+        -webkit-overflow-scrolling:touch;
+        z-index: 1000;
+    }
+}
